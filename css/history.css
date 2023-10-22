@@ -29,11 +29,11 @@ nav .logo{
     border-radius: 6px;
     width: 200px;
     height: 200px;
-    transition: transform 5s ease-in; /* Add a smooth scaling transition */
+    transition: transform 5s ease-in;
 }
 
 .animated-image:hover {
-    transform: scale(3.8); /* Scale the image on hover */
+    transform: scale(3.8); 
 }
 .paragraph {
     font-size: 45px;
