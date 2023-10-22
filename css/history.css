@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 190px;
+    height: 190px;
+    background-position:bottom;
+    background-repeat: no-repeat;
+
+}
+
+nav .logo{
+    margin-top: 90px;
+    width: 25%; 
+    text-align: center;
+    font-size: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
+
+.animated-image {
+    border-radius: 6px;
+    width: 200px;
+    height: 200px;
+    transition: transform 5s ease-in; /* Add a smooth scaling transition */
+}
+
+.animated-image:hover {
+    transform: scale(3.8); /* Scale the image on hover */
+}
+.paragraph {
+    font-size: 45px;
+    line-height: 1.5;
+    color: #888181;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.paragraph1 {
+    font-size: 40px;
+    line-height: 1.5;
+    color: #2d2929;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.paragraph2 {
+    font-size: 40px;
+    line-height: 1.5;
+    color:  #888181;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.paragraph3 {
+    font-size: 40px;
+    line-height: 1.5;
+    color:  #2d2929;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.paragraph4 {
+    font-size: 40px;
+    line-height: 1.5;
+    color:  #888181;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.paragraph5 {
+    font-size: 40px;
+    line-height: 1.5;
+    color:  #2d2929;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+p{  
+    background-color: #f3f3f3; /* Set the background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    margin: 0 auto;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+}

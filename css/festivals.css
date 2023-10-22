@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.red {
+    -webkit-text-stroke: 2px rgba(210, 45, 45, 0.919);
+    color: transparent;
+}
+
+.image-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 125vh;
+    width: 155vh;
+}
+
+.image {
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid transparent; 
+    box-shadow: 0 0 10px rgba(166, 253, 253, 0.745); 
+    transition: box-shadow 0.3s; 
+}
+
+.image:hover{
+    transform: scale(2.4);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+    border: 2px solid aquamarine;
+
+}
+
+.image1 {
+    background-image: url('/MidtermProject/images/CurrimaoFestival.jpg');
+}
+
+.image2 {
+    background-image: url('/MidtermProject/images/CurrimaoDance.jpg');
+}
+
+.image3 {
+    background-image: url('/MidtermProject/images/CurrimaoBand.jpg');
+}
+
+.image4 {
+    background-image: url('/MidtermProject/images/DinaklisanTuno.jpg');
+}
+
+.image5 {
+    background-image: url('/MidtermProject/images/DinaklisanTuno1Art.jpg');
+}
+
+.image6 {
+    background-image: url('/MidtermProject/images/DinaklisanTuno2Art.jpg');
+}
+
+.paragraph {
+    font-size: 45px;
+    line-height: 1.5;
+    color: #888181;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.image7 {
+    background-image: url('/MidtermProject/images/TamboraFestival.jpg');
+}
+
+.image8 {
+    background-image: url('/MidtermProject/images/Tambora2.jpg');
+}
+
+.image9 {
+    background-image: url('/MidtermProject/images/Tambora3.jpg');
+}
+
+
+.paragraph1 {
+    font-size: 45px;
+    line-height: 1.5;
+    color: #5a5656;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.image-container:hover {
+    animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:inherit;
+}
+
+.image-container1 {
+    margin-left: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 125vh;
+    width: 155vh;
+}
+
+p{  
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 95%;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+}
