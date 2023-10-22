@@ -34,7 +34,7 @@ img {
     transition: transform 0.3s;
 }
 body{
-    background-image: url('/MidtermProject/images/CDB.jpg');
+    background-image: url('/Midterm-Project/images/CDB.jpg');
     background-size: cover;
     background-repeat:repeat;
 }
