@@ -6,7 +6,7 @@
 }
 
 header{
-    width: 100%;
+    width: 100vh;
     height: 100vh;
     background-image: url('/Midterm-Project/images/Currimao\ Municipal\ Hall.jpg');
     background-repeat: no-repeat;
