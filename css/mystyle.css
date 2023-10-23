@@ -85,7 +85,6 @@ main{
 }
 
 main section{ 
-    align-items: center;
     margin: 30px;
     border-radius: 10px;
     border-style:double;
