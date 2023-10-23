@@ -3,21 +3,13 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.logo img{
-    width: 190px;
-    height: 190px;
-    background-position:bottom;
-    background-repeat: no-repeat;
 
+.History{
+    margin: auto;
+    font-size: 35px;
+    -webkit-text-stroke: 1px  rgb(192, 238, 251);
+    color: transparent;
 }
-
-nav .logo{
-    margin-top: 90px;
-    width: 25%; 
-    text-align: center;
-    font-size: 50px;
-}
-
 .image-container {
     display: flex;
     justify-content: center;
@@ -29,14 +21,15 @@ nav .logo{
     border-radius: 6px;
     width: 200px;
     height: 200px;
-    transition: transform 5s ease-in;
+    transition:  3s ease-in;
 }
 
 .animated-image:hover {
-    transform: scale(3.8); 
+    transform: scale(2.5); 
 }
+
 .paragraph {
-    font-size: 45px;
+    font-size: 30px;
     line-height: 1.5;
     color: #888181;
     font-family: 'Georgia', serif;
@@ -45,7 +38,7 @@ nav .logo{
 }
 
 .paragraph1 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.5;
     color: #2d2929;
     font-family: 'Georgia', serif;
@@ -54,7 +47,7 @@ nav .logo{
 }
 
 .paragraph2 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.5;
     color:  #888181;
     font-family: 'Georgia', serif;
@@ -63,7 +56,7 @@ nav .logo{
 }
 
 .paragraph3 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.5;
     color:  #2d2929;
     font-family: 'Georgia', serif;
@@ -72,7 +65,7 @@ nav .logo{
 }
 
 .paragraph4 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.5;
     color:  #888181;
     font-family: 'Georgia', serif;
@@ -81,7 +74,7 @@ nav .logo{
 }
 
 .paragraph5 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.5;
     color:  #2d2929;
     font-family: 'Georgia', serif;
@@ -90,11 +83,12 @@ nav .logo{
 }
 
 p{  
-    background-color: #f3f3f3; /* Set the background color */
+    font-size: 20px;
+    background-color: #f3f3f3; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 70%;
-    margin: 0 auto;
+    width: 90%;
+    margin:auto;
 }
 footer{
     text-align: center;
